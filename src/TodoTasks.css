@@ -1,0 +1,103 @@
+.todoContainer {
+    display: block;
+    padding: 20px;
+    width: 440px;
+    background-color: #4C3BCF;
+    border-radius: 20px;
+}
+
+.addTask {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addTask input {
+    width: 75%;
+    padding: 2px 8px;
+    height: 30px;
+    outline: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.addTask button {
+    width: 20%;
+    height: 30px;
+    padding: 2px 8px;
+    font-size: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+.addTask button:hover {
+    scale: 1.1;
+    background-color: #000;
+    color: #fff;
+}
+
+.task {
+    list-style: none;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.todoTasks {
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+.todoTasks h2 {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.taskContainer {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #849efc;
+    border-radius: 10px;
+}
+
+.taskContainer button {
+    width: 100px;
+    height: 30px;
+    padding: 2px 8px;
+    font-size: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+.taskContainer button:hover {
+    scale: 1.03;
+    background-color: #000;
+    color: #fff;
+}
+
+.taskContainer hr {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #1d1d1d;
+}
+
+.controlButtons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
